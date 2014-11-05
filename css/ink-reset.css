@@ -1,0 +1,234 @@
+.ink-grid {
+    width: auto;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+figure.ink-image {
+    border: 0;
+}
+/* Extra Large */
+@media screen and (min-width: 1261px) {
+    .ink-grid {
+        padding:0;
+    }
+}
+/* Large */
+@media screen and (max-width: 1260px) and (min-width: 961px) {
+    .ink-grid {
+        padding:0;
+    }
+}
+/* Medium */
+@media screen and (max-width: 960px) and (min-width: 641px) {
+    .ink-grid {
+        padding:0;
+    }
+}
+/* Small */
+@media screen and (max-width: 640px) and (min-width: 321px) {
+    .ink-grid {
+        padding:0;
+    }
+}
+/* Tiny */
+@media screen and (max-width: 320px) {
+    .ink-grid {
+        padding:0;
+    }
+}
+/*********************************************************************/
+/**************************   Black Menu  ****************************/
+/*********************************************************************/
+#topbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background: #1a1a1a;
+    -webkit-transform: scale3d(1,1,1);
+    top: 0;
+}
+.ink-navigation ul.menu.black {
+    background: #1c2023;
+    background: -moz-linear-gradient(top,  #1c2023 0%, #1a1b1f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c2023), color-stop(100%,#1a1b1f));
+    background: -webkit-linear-gradient(top,  #1c2023 0%,#1a1b1f 100%);
+    background: -o-linear-gradient(top,  #1c2023 0%,#1a1b1f 100%);
+    background: -ms-linear-gradient(top,  #1c2023 0%,#1a1b1f 100%);
+    background: linear-gradient(to bottom,  #1c2023 0%,#1a1b1f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c2023', endColorstr='#1a1b1f',GradientType=0 );
+}
+.ink-navigation ul.menu.horizontal li a {
+    padding: 40px 1em 10px;
+    display: block;
+    line-height: 1.7;
+    text-transform: uppercase;
+    font-size:16px;
+    font-size:1rem;     
+}
+.ink-navigation ul.menu.black li a:hover {
+    background: #ff9000;
+    background: -moz-linear-gradient(top,  #ff9000 0%, #ec8500 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9000), color-stop(100%,#ec8500));
+    background: -webkit-linear-gradient(top,  #ff9000 0%,#ec8500 100%);
+    background: -o-linear-gradient(top,  #ff9000 0%,#ec8500 100%);
+    background: -ms-linear-gradient(top,  #ff9000 0%,#ec8500 100%);
+    background: linear-gradient(to bottom,  #ff9000 0%,#ec8500 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9000', endColorstr='#ec8500',GradientType=0 );
+}
+.ink-navigation ul.menu.black li ul.submenu {
+    background: #1c1d22;
+    border: 1px solid #212228;
+}
+.ink-navigation ul.menu.black li ul.submenu li a {
+    color: #fff;
+}
+.ink-navigation ul.menu.black li ul.submenu li a:hover {
+    background: #ff9000;
+    background: -moz-linear-gradient(top,  #ff9000 0%, #ec8500 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9000), color-stop(100%,#ec8500));
+    background: -webkit-linear-gradient(top,  #ff9000 0%,#ec8500 100%);
+    background: -o-linear-gradient(top,  #ff9000 0%,#ec8500 100%);
+    background: -ms-linear-gradient(top,  #ff9000 0%,#ec8500 100%);
+    background: linear-gradient(to bottom,  #ff9000 0%,#ec8500 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9000', endColorstr='#ec8500',GradientType=0 );
+    color: #fff;
+}
+.ink-navigation ul.menu > li ul.submenu li {
+    font-size:16px;
+    font-size:1rem;
+}
+.ink-navigation ul.menu.black li ul.sub_sec li a {
+    padding: .5em 2em;    
+}
+.ink-navigation ul.menu>li ul.submenu li a {
+    border-bottom: 1px solid #212228;
+}
+.ink-navigation ul.menu.vertical li:first-child, 
+.ink-navigation ul.menu.vertical li:first-child>a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.ink-navigation ul.menu.black li ul.sub_sec {
+    background: #17181c;
+    border: 0px;
+    border-bottom: 1px solid #212228;
+}
+.ink-navigation ul.menu.black li ul.sub_sec li a {
+    color: #414141;
+}
+#topbar .ink-navigation ul.black li button.fa-bars {
+    background: 0 0;
+    font-size: 1.2em;
+    color: #bbb;
+    border: 0;
+    padding: .8em;
+    float: left;
+}
+#topbar .ink-navigation ul.black li button.fa-bars:hover {
+    color: #fff;
+    outline: 0;
+}
+/*********************************************************************/
+/*****************************   Pager  ******************************/
+/*********************************************************************/
+.ink-navigation ul.pagination {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.ink-navigation ul.pagination li:first-child, 
+.ink-navigation ul.pagination li:first-child a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.ink-navigation ul.pagination li:last-child, 
+.ink-navigation ul.pagination li:last-child a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.ink-navigation ul.pagination li a {
+    padding: .2em .8em;
+    display: block;
+    float: left;
+}
+/*********************************************************************/
+/*****************************   Pills  ******************************/
+/*********************************************************************/
+.ink-navigation ul.pills li {
+    background: #fff;
+    font-weight: 300;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.ink-navigation .pills li {
+    margin: 0 .4em .5em 0;
+}
+/*********************************************************************/
+/****************************   Resizer  *****************************/
+/*********************************************************************/
+.screen-size-helper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.6em;
+    font-size: 1em;
+    padding: 0.5333333333333333em 0.8em;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+.screen-size-helper .title,
+.screen-size-helper ul {
+    color: white;
+    text-shadow: 0 1px 0 #000000;
+}
+.screen-size-helper .title {
+    font-size: inherit;
+    line-height: inherit;
+    float: left;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.screen-size-helper ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    line-height: inherit !important;
+}
+.screen-size-helper ul li {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: inherit !important;
+}
+.screen-size-helper ul li.tiny {
+  color: #0f75da;
+}
+.screen-size-helper ul li.small {
+  color: #4a9b17;
+}
+.screen-size-helper ul li.medium {
+  color: #ff9c00;
+}
+.screen-size-helper ul li.large {
+  color: #c91111;
+}
+.screen-size-helper ul li.xlarge {
+  color: white;
+}

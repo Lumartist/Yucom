@@ -1,27 +1,27 @@
 
-			<div class="column-group forum_recent_header">
+<!--			<div class="column-group forum_recent_header">
 				<div class="xlarge-33 large-33 medium-33 small-100 tiny-100">                    
                     <div id="secondary" class="sidebar-container" role="complementary">
                         <div class="widget-area">
-                            <?php dynamic_sidebar( 'sidebar-2' );  ?>
+                            <?php /* dynamic_sidebar( 'sidebar-2' ); */ ?>
                         </div>
                     </div>                                        
                 </div>
                 <div class="xlarge-33 large-33 medium-33 small-100 tiny-100">                    
                     <div id="secondary" class="sidebar-container" role="complementary">
                         <div class="widget-area">
-                            <?php dynamic_sidebar( 'sidebar-3' );  ?>
+                            <?php /* dynamic_sidebar( 'sidebar-3' ); */ ?>
                         </div>
                     </div>                                        
                 </div>
                 <div class="xlarge-33 large-33 medium-33 small-100 tiny-100">                    
                     <div id="secondary" class="sidebar-container" role="complementary">
                         <div class="widget-area">
-                            <?php dynamic_sidebar( 'sidebar-4' );  ?>
+                            <?php /* dynamic_sidebar( 'sidebar-4' ); */ ?>
                         </div>
                     </div>                                        
                 </div>
-			</div>
+			</div> -->
 
 <div id="bbpress-forums">
 	

@@ -2135,11 +2135,43 @@ div.bbp-submit-wrapper {
     text-transform: uppercase;
     color: #1a1b1f;
 }
+.forum_sidebar_title {
+    border-bottom: 4px solid #000;
+    display: block;
+    padding: 0 0 3px 0;
+    margin: 0 0 20px 0;
+}
+.forum_sidebar_title span {
+    border-left: 4px solid #fe8f00;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
 .forum_sidebar {
-	margin:0 20px;
+	margin:22px 20px 0 20px;
 }
 .forum_sidebar_right {
 	margin:0 20px;
+}
+.forum_sidebar ul {
+	background-color:transparent;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.forum_sidebar a:link,
+.forum_sidebar a:visited {
+	color:#FFF;
+	border-left:28px solid #0e0f11;
+	display:block;
+	padding:0 0 0 10px;
+}
+.forum_sidebar a:hover,
+.forum_sidebar a:active {
+	color:#ff9000;
+	border-left:28px solid #fff;
+	display:block;
+	padding:0 0 0 10px;
 }
 .recent_listing {
 	background-color:#1a1b1f;

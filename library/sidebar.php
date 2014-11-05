@@ -15,7 +15,7 @@ function yucom_widgets_init() {
 		'description'   => __( 'Appears on Forum Front', 'yucom' ),
 		'before_widget' => '<div class="forum_sidebar">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<div class="forum_main_title"><span>',
+		'before_title'  => '<div class="forum_sidebar_title"><span>',
 		'after_title'   => '</span></div>',
 	) );
 	register_sidebar( array(
@@ -24,7 +24,7 @@ function yucom_widgets_init() {
 		'description'   => __( 'Appears on Forum Pages', 'yucom' ),
 		'before_widget' => '<div class="forum_sidebar">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<div class="forum_main_title"><span>',
+		'before_title'  => '<div class="forum_sidebar_title"><span>',
 		'after_title'   => '</span></div>',
 	) );
 	register_sidebar( array(
@@ -33,7 +33,7 @@ function yucom_widgets_init() {
 		'description'   => __( 'Appears on Forum Pages', 'yucom' ),
 		'before_widget' => '<div class="forum_sidebar_right">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<div class="forum_main_title"><span>',
+		'before_title'  => '<div class="forum_sidebar_title"><span>',
 		'after_title'   => '</span></div>',
 	) );	
 }

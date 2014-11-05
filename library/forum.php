@@ -190,19 +190,19 @@ function yucom_list_subforums( $args = array() ) {
                                 <span><?php echo $desc; ?></span>
                             </a>
                         </div>
-                        <div class="forum_recent">
+                        <!--<div class="forum_recent">
                             <div class="forum_recent_autor clearfix">
                                 <div class="push-left">
-                                    <?php bbp_author_link( array( 'post_id' => $reply_id, 'type' => 'avatar' , 'size' => 30 ) ); ?>
+                                    <?php /* bbp_author_link( array( 'post_id' => $reply_id, 'type' => 'avatar' , 'size' => 30 ) ); */ ?>
                                 </div>
                                 <div class="push-left forum_recent_info">
-                                    <?php bbp_author_link( array( 'post_id' => $reply_id, 'type' => 'name' ) ); ?> schrieb <?php bbp_topic_last_active_time( $topic_id ); ?>:
+                                    <?php /* bbp_author_link( array( 'post_id' => $reply_id, 'type' => 'name' ) ); ?> schrieb <?php bbp_topic_last_active_time( $topic_id ); */ ?>:
                                 </div>
                             </div>
                             <div class="forum_excerpt">
-                                <span><?php echo $topic_excerpt ?></span>
+                                <span><?php /* echo $topic_excerpt */ ?></span>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="forum_front_topic">
                         <span>Thema:</span> <a class="forum_front_tpctitle" href="<?php echo $link; ?>" title="<?php echo $topic_title; ?>">
                             <?php $topic_title = (strlen($topic_title) > 30) ? substr($topic_title,0,35).'...' : $topic_title;

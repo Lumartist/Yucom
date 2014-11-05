@@ -310,3 +310,12 @@ global $bp;
 	}		
 return $activity_action;
 }
+
+function my_add_bbp_to_search( $post_type ) {
+     $post_type['exclude_from_search'] = false;
+
+     return $post_type;
+}
+add_filter( 'bbp_register_forum_post_type', 'my_add_bbp_to_search' );
+add_filter( 'bbp_register_topic_post_type', 'my_add_bbp_to_search' );
+add_filter( 'bbp_register_reply_post_type', 'my_add_bbp_to_search' );
